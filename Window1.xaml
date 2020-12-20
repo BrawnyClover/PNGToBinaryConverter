@@ -1,0 +1,17 @@
+﻿<Window x:Class="ImageLike.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="600" Width="918.517">
+    <Grid Background="Beige">
+        <TextBox Name="DirBox" Width="98" HorizontalAlignment="Left" Margin="13,10,0,0" Height="21" VerticalAlignment="Top"></TextBox>
+        <Image Name="imageBox" Margin="13,84,0,267" HorizontalAlignment="Left" Width="199" ClipToBounds="False" OpacityMask="DarkBlue"></Image>
+        <Button Click="LoadFilesClick" FontSize="17" Height="40" Margin="13,38,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100">Load Files</Button>
+        
+        <Button Name="RightButton" HorizontalAlignment="Left" Margin="13,0,0,196" Width="111" Height="39.281" VerticalAlignment="Bottom" Click="RightButton_Click">Previous</Button>
+        <Button Name="LeftButton" HorizontalAlignment="Left" Margin="13,0,0,154" Width="111" Height="39.281" VerticalAlignment="Bottom" Click="LeftButton_Click">Next</Button>
+        <TextBlock Name="FileNameBox" Width="199" Height="23" HorizontalAlignment="Left" Margin="13,0,0,240" VerticalAlignment="Bottom"></TextBlock>
+        <Button Name="ToBinButton" HorizontalAlignment="Left" Margin="13,0,0,113" Width="111" Height="39.281" VerticalAlignment="Bottom" Click="ToBinButton_Click">To Bin</Button>
+        <TextBox Name="BinBox" Margin="217,10,22,15">
+        </TextBox>
+    </Grid>
+</Window>
